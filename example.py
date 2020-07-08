@@ -129,11 +129,11 @@ if __name__ == "__main__":
         true_label = file_name.split('/')[1].split('.')[0]
 
         # True labels are obtained from file name.
-        print " - %s (conf: %.2f, true label: %s)" % (label_names[prediction[0]],
+        print (" - %s (conf: %.2f, true label: %s)" % (label_names[prediction[0]],
                                                       confidence[0],
-                                                      true_label)
+                                                      true_label))
 
         if display_images:
             imshow(np.squeeze(X))
 
-    print "Average FPS: %.2f" % (float(len(input_list))/total_time)
+    print ("Average FPS: %.2f" % (float(len(input_list))/total_time))
