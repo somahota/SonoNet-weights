@@ -134,6 +134,8 @@ if __name__ == "__main__":
                                                       true_label))
 
         if display_images:
+            print ("Displaying image 1")
             imshow(np.squeeze(X))
+            print ("Displaying image 2")
 
     print ("Average FPS: %.2f" % (float(len(input_list))/total_time))
