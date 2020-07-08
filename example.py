@@ -118,7 +118,7 @@ if __name__ == "__main__":
 
     total_time = 0  # measures the total time spent predicting in seconds
 
-    print "\nPredictions using %s:" % network_name
+    print ("\nPredictions using %s:" % network_name)
 
     for X, file_name in zip(input_list, glob.glob('example_images/*.tiff')):
 
