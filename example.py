@@ -41,6 +41,7 @@ label_names = [ '3VV',
                 'LVOT',
                 'Profile',
                 'RVOT',
+                'LIMBS',
                 'Spine (cor.)',
                 'Spine (sag.) ']
 
@@ -137,4 +138,4 @@ if __name__ == "__main__":
             imshow(np.squeeze(X))
             print ("Displaying image")
 
-    print ("Average FPS: %.2f" % (float(len(input_list))/total_time))
+    #print ("Average FPS: %.2f" % (float(len(input_list))/total_time))
