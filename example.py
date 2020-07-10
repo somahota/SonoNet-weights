@@ -41,7 +41,6 @@ label_names = [ '3VV',
                 'LVOT',
                 'Profile',
                 'RVOT',
-                'LIMBS',
                 'Spine (cor.)',
                 'Spine (sag.) ']
 
